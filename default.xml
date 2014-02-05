@@ -284,9 +284,9 @@
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="bigsupersquid/android_frameworks_base" />
-  <project path="frameworks/compile/libbcc" name="TheJBC/android_frameworks_compile_libbcc" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="TheJBC/android_frameworks_compile_slang" groups="pdk" />
+  <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
@@ -461,13 +461,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="TheJBC/android_system_core" groups="pdk" />
+  <project path="system/core" name="androidarmv6/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="androidarmv6/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="TheJBC/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="androidarmv6/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -494,11 +494,11 @@
   <project path="external/VirginMMS1" name="bigsupersquid/android_frameworks_opt_telephony-src-java-com-android-internal-telephony-cdma" revision="cm-11.0">
    <copyfile src="CdmaInboundSmsHandler.java" dest="frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/CdmaInboundSmsHandler.java"/>
    </project>
-  <project path="external/VirginMMS2" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0">
+<!--  <project path="external/VirginMMS2" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0">
    <copyfile src="DcTracker.java" dest="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection/DcTracker.java"/>
-   </project>
-  <project path="external/errorHacks" name="bigsupersquid/kitkat_error_hacks" revision="cm-11.0">
+   </project> -->
+<!--  <project path="external/errorHacks" name="bigsupersquid/kitkat_error_hacks" revision="cm-11.0">
    <copyfile src="packages_apps_DeskClock_src_com_android_deskclock_alarms/AlarmStateManager.java" dest="packages/apps/DeskClock/src/com/android/deskclock/alarms/AlarmStateManager.java"/>
    <copyfile src="frameworks_av_services_camera_libcameraservice_api1/CameraClient.cpp" dest="frameworks/av/services/camera/libcameraservice/api1/CameraClient.cpp"/>
-   </project>
+   </project> -->
 </manifest>
