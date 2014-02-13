@@ -493,7 +493,7 @@
   <project path="vendor/lge" name="TheJBC/android_vendor_lge" revision="cm-11" remote="github" />
 
   <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/" name="bigsupersquid/android_frameworks_opt_telephony-src-java-com-android-internal-telephony-cdma" revision="cm-11.0"/>
-  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0"/>
+<!--  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0"/> -->
   <project path="external/errorHacks" name="bigsupersquid/kitkat_error_hacks" revision="cm-11.0">
    <copyfile src="packages_apps_DeskClock_src_com_android_deskclock_alarms/AlarmStateManager.java" dest="packages/apps/DeskClock/src/com/android/deskclock/alarms/AlarmStateManager.java"/>
    <copyfile src="frameworks_av_services_camera_libcameraservice_api1/CameraClient.cpp" dest="frameworks/av/services/camera/libcameraservice/api1/CameraClient.cpp"/>
