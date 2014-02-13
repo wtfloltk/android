@@ -479,7 +479,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="vendor/cm" name="TheJBC/android_vendor_cm" />
+  <project path="vendor/cm" name="bigsupersquid/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
@@ -487,7 +487,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
     <project path="device/lge/thunderc" name="bigsupersquid/android_device_lge_thunderc" remote="github" revision="cm-11.0x" />
   <project path="device/lge/msm7x27-common" name="bigsupersquid/android_device_lge_msm7x27-common" remote="github" revision="cm-11.0x" />
-  <project path="device/qcom/msm7x27" name="TheJBC/android_device_qcom_msm7x27" remote="github" />
+  <project path="device/qcom/msm7x27" name="bigsupersquid/android_device_qcom_msm7x27" remote="github" />
   <project path="kernel/lge/msm7x27-3.0.x" name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" revision="cm-11.0" />
   <project path="vendor/lge" name="TheJBC/android_vendor_lge" revision="cm-11" remote="github" />
