@@ -283,7 +283,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="bigsupersquid/android_frameworks_base" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" groups="pdk" />
@@ -349,7 +349,7 @@
   <project path="packages/apps/Browser" name="bigsupersquid/android_packages_apps_Browser" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="TheJBC/android_packages_apps_Camera2" remote="github" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
@@ -468,7 +468,7 @@
   <project path="system/netd" name="androidarmv6/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="TheJBC/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -494,6 +494,7 @@
 
 <!-- quick and not-so-quick fixes -->
   <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/" name="bigsupersquid/android_frameworks_opt_telephony-src-java-com-android-internal-telephony-cdma" revision="cm-11.0"/>
-  <project path="packages/" name="bigsupersquid/packages-apps-DeskClock-src-com-android-deskclock-alarms-AlarmStateManager.java" revision="cm-11.0"/>
-  <project path="frameworks/" name="bigsupersquid/frameworks-av-services-camera-libcameraservice-api1-CameraClient.cpp" revision="cm-11.0"/>
+  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0" />
+  <!--  <project path="packages/" name="bigsupersquid/packages-apps-DeskClock-src-com-android-deskclock-alarms-AlarmStateManager.java" revision="cm-11.0"/>-->
+<!--  <project path="frameworks/" name="bigsupersquid/frameworks-av-services-camera-libcameraservice-api1-CameraClient.cpp" revision="cm-11.0"/>-->
 </manifest>
