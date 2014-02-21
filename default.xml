@@ -447,7 +447,7 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-    <project path="device/lge/thunderc" name="bigsupersquid/android_device_lge_thunderc" remote="github" revision="cm-11.0x" />
+    <project path="device/lge/thunderc" name="bigsupersquid/android_device_lge_thunderc" remote="github" revision="OS2SD" />
   <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" remote="github" revision="cm-11.0" />
   <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" remote="github" />
   <project path="kernel/lge/msm7x27-3.0.x" name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
