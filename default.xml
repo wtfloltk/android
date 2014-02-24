@@ -359,7 +359,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings"/>
+  <project path="packages/apps/Settings" name="TheJBC/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -402,6 +402,7 @@
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
