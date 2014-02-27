@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TheJBC/android_build" groups="pdk">
+  <project path="build" name="androidarmv6/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="bigsupersquid/android" />
@@ -274,10 +274,10 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="TheJBC/android_frameworks_base" />
-  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
+  <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
+  <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
@@ -296,7 +296,7 @@
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/telephony" name="Team-Hydra/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
-  <project path="frameworks/rs" name="TheJBC/android_frameworks_rs" groups="pdk" />
+  <project path="frameworks/rs" name="androidarmv6/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -332,7 +332,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera2" name="TheJBC/android_packages_apps_Camera2" remote="github" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" remote="github" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
@@ -359,11 +359,11 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="TheJBC/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="bigsupersquid/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
-<!--  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" /> -->
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
@@ -423,13 +423,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="TheJBC/android_system_core" groups="pdk" />
+  <project path="system/core" name="androidarmv6/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="androidarmv6/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/vold" name="TheJBC/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -447,7 +447,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="device/lge/thunderc" name="TheJBC/android_device_lge_thunderc" revision="cm-11.0x" />
-  <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" revision="cm-11.0" />
+  <project path="device/lge/msm7x27-common" name="bigsupersquid/android_device_lge_msm7x27-common" revision="testing" />
   <project path="device/qcom/msm7x27" name="TheJBC/android_device_qcom_msm7x27" />
   <project path="kernel/lge/msm7x27-3.0.x" name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" revision="cm-11.0" />
