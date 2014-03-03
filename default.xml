@@ -452,8 +452,8 @@
   <project path="vendor/lge" name="bigsupersquid/android_vendor_lge" revision="cm-11.0" remote="github" />
 
 <!-- quick and not-so-quick fixes -->
-  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/" name="bigsupersquid/android_frameworks_opt_telephony-src-java-com-android-internal-telephony-cdma" revision="cm-11.0"/>
-<!--  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0" /> -->
+<!--  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/cdma/" name="bigsupersquid/android_frameworks_opt_telephony-src-java-com-android-internal-telephony-cdma" revision="cm-11.0"/> -->
+  <project path="frameworks/opt/telephony/src/java/com/android/internal/telephony/dataconnection" name="bigsupersquid/frameworks_opt_telephony-src-java-com-android-internal-telephony-dataconnection" revision="cm-11.0" />
   <!--  <project path="packages/" name="bigsupersquid/packages-apps-DeskClock-src-com-android-deskclock-alarms-AlarmStateManager.java" revision="cm-11.0"/>-->
 <!--  <project path="frameworks/" name="bigsupersquid/frameworks-av-services-camera-libcameraservice-api1-CameraClient.cpp" revision="cm-11.0"/>-->
 </manifest>
