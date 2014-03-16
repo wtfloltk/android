@@ -309,6 +309,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/fmradio" name="CyanogenMod/android_hardware_broadcom_fmradio" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
