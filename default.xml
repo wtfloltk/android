@@ -43,6 +43,8 @@
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" />
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
   <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
+  <project path="device/htc/shooter" name="Team-Hydra/android_device_htc_shooter" />
+  <project path="device/htc/shooter-common" name="Team-Hydra/android_device_htc_shooter-common" />
   <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
