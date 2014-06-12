@@ -43,11 +43,11 @@
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" />
   <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" />
-  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
+<!--  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" />
   <project path="device/htc/shooter" name="Team-Hydra/android_device_htc_shooter" />
   <project path="device/htc/shooter-common" name="Team-Hydra/android_device_htc_shooter-common" />
   <project path="device/htc/shooterk" name="Team-Hydra/android_device_htc_shooterk" />
-  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" />
+  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" /> -->
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
@@ -333,7 +333,6 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  />
-  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -364,7 +363,6 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
 <!--  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" /> -->
 
@@ -478,11 +476,12 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="device/lge/thunderc" name="bigsupersquid/android_device_lge_thunderc" revision="OS2SD" />
-  <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" revision="cm-11" /> <!--revision="clean""testing" -->
+  <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" /> <!--revision="clean""testing" -->
   <project path="device/qcom/msm7x27" name="bigsupersquid/android_device_qcom_msm7x27" revision="cm-11.0" />
+<!--  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" /> -->
   <project path="kernel/lge/msm7x27-3.0.x" name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" revision="cm-11.0" />
   <project path="vendor/lge" name="bigsupersquid/android_vendor_lge" revision="cm-11.0" remote="github" />
-  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" revision="cm-11.0" remote="github" />
+<!--  <project path="vendor/htc" name="Team-Hydra/android_vendor_htc" revision="cm-11.0" remote="github" /> -->
 
 </manifest>
