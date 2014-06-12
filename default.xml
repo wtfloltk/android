@@ -364,7 +364,7 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
+  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
 <!--  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" /> -->
 
