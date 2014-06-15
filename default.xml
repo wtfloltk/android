@@ -476,7 +476,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <project path="device/lge/thunderc" name="bigsupersquid/android_device_lge_thunderc" revision="OS2SD" />
-  <project path="device/lge/msm7x27-common" name="bigsupersquid/android_device_lge_msm7x27-common" --revision="clean" /> <!--revision="clean""testing" -->
+  <project path="device/lge/msm7x27-common" name="bigsupersquid/android_device_lge_msm7x27-common" revision="clean" /> <!--revision="clean""testing" -->
   <project path="device/qcom/msm7x27" name="bigsupersquid/android_device_qcom_msm7x27" revision="cm-11.0" />
 <!--  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" /> -->
   <project path="kernel/lge/msm7x27-3.0.x" name="bigsupersquid/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
