@@ -1,0 +1,28 @@
+---
+name: RUN
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  android-thunderc:
+    name: make
+    runs-on: ubuntu-latest
+    steps:
+    - name: step 1
+      run: |
+        repo init -u git://github.com/bigsupersquid/android.git -b cm-11.0
+        repo sync
+        sh vendor/cm/get-prebuilts
+        source build/envsetup.sh
+        lunch cm_thunderc-userdebug
+        
+    - name: Upload Zip
+      uses: actions/upload-artifact@v4.3.1
+      with:
+        name: zip
+        path: out/target/product/thunderc/cm-VERSION-thunderc.zip
