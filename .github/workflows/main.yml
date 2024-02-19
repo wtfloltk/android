@@ -16,7 +16,7 @@ jobs:
     - name: step 1
       run: |
         sudo apt update
-        sudo apt install 'git*' 'repo*' '*git' '*repo' 'repo' 'git' -y
+        sudo apt install 'repo*' '*repo' 'repo' 'git' -y
         repo init -u git://github.com/bigsupersquid/android.git -b cm-11.0
         repo sync
         sh vendor/cm/get-prebuilts
